@@ -20,3 +20,7 @@ h1 {
 .navbar {
     display:flex;
 }
+
+nav {
+    max-width:1000px;
+}
