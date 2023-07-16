@@ -22,11 +22,15 @@ h1 {
 }
 
 .navitem {
+    text-align:center;
+    font-size:2em;
     flex:1;
 }
 
 .navlink {
     text-decoration: none;
+    display:inline-block;
+    width:100%;
 }
 nav {
     max-width:1000px;
