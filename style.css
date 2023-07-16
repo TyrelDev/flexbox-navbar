@@ -21,6 +21,15 @@ h1 {
     display:flex;
 }
 
+.navitem {
+    flex:1;
+}
+
+.navlink {
+    text-decoration: none;
+}
 nav {
     max-width:1000px;
+    margin: 0 auto;
+    padding:1em 0;
 }
