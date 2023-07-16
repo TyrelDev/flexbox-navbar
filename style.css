@@ -22,6 +22,7 @@ h1 {
 }
 
 .navitem {
+    padding:1em 0;
     text-align:center;
     font-size:2em;
     flex:1;
@@ -36,4 +37,17 @@ nav {
     max-width:1000px;
     margin: 0 auto;
     padding:1em 0;
+}
+
+.navbar1 {
+    background-color:#1b1c1c;
+    border-radius: 10px;
+}
+
+.nav1 {
+    color:white;
+}
+
+.nav1:hover {
+    color:grey;
 }
