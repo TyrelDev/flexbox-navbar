@@ -22,7 +22,6 @@ h1 {
 }
 
 .navitem {
-    padding:1em 0;
     text-align:center;
     font-size:2em;
     flex:1;
@@ -31,7 +30,7 @@ h1 {
 .navlink {
     text-decoration: none;
     display:inline-block;
-    width:100%;
+    padding:1em 2em;
 }
 nav {
     max-width:1000px;
@@ -42,6 +41,7 @@ nav {
 .navbar1 {
     background-color:#1b1c1c;
     border-radius: 10px;
+    border:5px solid black;
 }
 
 .nav1 {
@@ -50,4 +50,14 @@ nav {
 
 .nav1:hover {
     color:grey;
+}
+
+.navbar2 {
+    background-color:#8601AF;
+    border-radius:10px;
+    border:5px solid #FEFE33;
+    font-weight:bolder;
+}
+.nav2 {
+    color:#FEFE33;
 }
