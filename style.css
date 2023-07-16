@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -66,4 +67,24 @@ nav {
 .nav2:hover {
     background-color:#4D0164;
     border-radius:10px;
+}
+
+.nav3 {
+    color:#4a4a4a;
+    text-shadow: 2px 1px rgb(20, 199, 253);
+    font-weight: bolder;
+}
+
+.nav3::after {
+    content:"";
+    height:3px;
+    width:0;
+    display:block;
+    background-color:rgb(63, 185, 241);
+}
+
+.nav3:hover::after {
+    width:100%;
+    transition: all 3s;
+    transition-timing-function: ease-in-out;
 }
